@@ -1,0 +1,48 @@
+/* app.component.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e6d8d8; /* Color de fondo general */
+    color: #333; /* Color de texto principal */
+  }
+  
+  .container {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  h2 {
+    color: #dba298; /* Color del encabezado */
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #dba298; /* Color del texto de la etiqueta */
+  }
+  
+  input {
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc; /* Borde del input */
+  }
+  
+  button {
+    padding: 8px 15px;
+    background-color: #4caf50; /* Color de fondo del botón */
+    color: #fff; /* Color del texto del botón */
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049; /* Cambia el color al pasar el ratón sobre el botón */
+  }
+  
+  p {
+    margin-top: 20px;
+    color: #777; /* Color del texto del resultado */
+  }
+  
+  /* Agrega estilos adicionales según sea necesario */
+  

@@ -1,0 +1,15 @@
+<!-- app.component.html -->
+<body>
+  
+<div style="text-align: center; margin-top: 50px;">
+  <h2>Verificación de Rango</h2>
+  <label for="numero">Ingresa un número:</label>
+  <input type="number" id="numero" [(ngModel)]="numeroIngresado" />
+  <button (click)="verificarRango()">Verificar</button>
+
+  <div style="margin-top: 20px;">
+    <p>{{ resultado }}</p>
+  </div>
+</div>
+</body>
+<router-outlet></router-outlet>
